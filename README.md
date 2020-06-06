@@ -24,3 +24,13 @@ To completely remove the environment run
 ```bash
 conda remove --name empot --all
 ```
+
+
+## Docker
+
+Build the base image locally:
+
+```
+docker build -t gostin -f base.dockerfile .
+```
+
