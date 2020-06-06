@@ -21,3 +21,4 @@ dependencies:
       - vtk==8.1.2 # Temporary!
       - pyvista
       - gempy
+      - pyvista

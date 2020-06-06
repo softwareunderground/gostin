@@ -12,17 +12,17 @@ To create the environment simply run
 ```bash
 conda env create -f environment.yml
 ```
-This will create a new conda environment called `empot`.
+This will create a new conda environment called `gostin`.
 
 To activate and deactivate the environment run
 ```bash
-conda activate empot
+conda activate gostin
 conda deactivate
 ```
 
 To completely remove the environment run
 ```bash
-conda remove --name empot --all
+conda remove --name gostin --all
 ```
 
 
