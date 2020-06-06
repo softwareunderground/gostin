@@ -4,7 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pyvista
   - verde
   - pooch
   - harmonica
@@ -22,3 +21,4 @@ dependencies:
   - pip
   - pip:
       - gempy
+      - pyvista
