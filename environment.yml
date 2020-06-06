@@ -1,0 +1,24 @@
+name: empot
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - verde
+  - pooch
+  - harmonica
+  - boule
+  - rockhound
+  - simpeg
+  - emg3d
+  - ipython
+  - jupyter
+  - matplotlib
+  - python==3.7
+  - pip
+  - scooby
+  - segyio
+  - xarray
+  - pip:
+      - gempy
+      - pyvista
