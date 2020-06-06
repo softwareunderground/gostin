@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python==3.7 # No py38 vtk wheel on PyPI
   - verde
   - pooch
   - harmonica
@@ -14,7 +15,6 @@ dependencies:
   - ipython
   - jupyter
   - matplotlib
-  - python
   - scooby
   - segyio
   - xarray

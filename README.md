@@ -34,3 +34,8 @@ Build the base image locally:
 docker build -t gostin -f base.dockerfile .
 ```
 
+To run that image interactively:
+
+```
+docker run -it gostin
+```
