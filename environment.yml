@@ -12,8 +12,6 @@ dependencies:
   - rockhound
   - simpeg
   - emg3d
-  - ipython
-  - jupyter
   - matplotlib
   - scooby
   - segyio

@@ -31,11 +31,33 @@ conda remove --name empot --all
 Build the base image locally:
 
 ```
-docker build -t gostin -f base.dockerfile .
+docker build -t softwareunderground/gostin -f base.dockerfile .
 ```
 
 To run that image interactively:
 
 ```
-docker run -it gostin
+docker run -it softwareunderground/gostin
 ```
+
+then you can build the image with Jupyter lab:
+
+```
+docker build -t softwareunderground/gostin-jupyter -f jupyter.dockerfile .
+```
+
+then to run Jupyter Lab:
+
+```
+docker run -p 8889:8889 softwareunderground/gostin-jupyter
+```
+
+Perhaps you want to mount some local notebooks you have when running the
+`softwareunderground/gostin-jupyter` container. You can mount this directory
+by doing:
+
+```
+docker run -v $PWD:/root/gostin/ -p 8889:8889 softwareunderground/gostin-jupyter
+```
+
+and then you can run the `pyvista.ipynb` notebook.
