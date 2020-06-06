@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pyvista
   - verde
   - pooch
   - harmonica
@@ -14,11 +15,10 @@ dependencies:
   - ipython
   - jupyter
   - matplotlib
-  - python==3.7
-  - pip
+  - python
   - scooby
   - segyio
   - xarray
+  - pip
   - pip:
       - gempy
-      - pyvista
