@@ -3,6 +3,7 @@ name: gostin
 channels:
   - conda-forge
   - defaults
+  - gimli
 dependencies:
   - verde
   - pooch
@@ -11,6 +12,7 @@ dependencies:
   - rockhound
   - simpeg
   - emg3d
+  - pygimli >=1.1.0
   - ipython
   - jupyter
   - matplotlib
