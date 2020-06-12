@@ -17,6 +17,7 @@ dependencies:
   - segyio
   - xarray
   - pip
+  - mkl-service # Gempy (Theano) throws a warning
   - pip:
       - vtk==8.1.2 # Temporary!
       - pyvista

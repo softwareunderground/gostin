@@ -9,7 +9,7 @@ ADD environment.yml /tmp/environment.yml
 RUN conda env create -f /tmp/environment.yml
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libgl1-mesa-dev xvfb tini && \
+    apt-get install -y --no-install-recommends libgl1-mesa-dev xvfb tini g++ && \
     rm -rf /var/lib/apt/lists/*
 
 # Pull the environment name out of the environment.yml
