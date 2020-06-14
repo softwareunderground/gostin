@@ -21,7 +21,7 @@ all_wells['Dip'] -= 90
 # %%
 
 
-p = Well.from_las(r'I:\PycharmProjects\gostin\data\58-32_main.las')
+#p = Well.from_las(r'I:\PycharmProjects\gostin\data\58-32_main.las')
 # %%
 
 # Load deviation on a df
@@ -39,4 +39,7 @@ well1.location.add_deviation(dev1[['Depth (m)', 'Dip', 'Azimuth']].values)
 well1.location.position
 
 # %%
-well1.location.
+well1.location.trajectory()
+
+#%%
+dev1
